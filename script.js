@@ -75,12 +75,12 @@ const setUsers = (usersToDisplay) => {
 
     
     if (user.role && user.role.toLowerCase() === "admin") {
-      roleHolder.style.backgroundColor = "red"; // Red for admin
+      roleHolder.style.backgroundColor = "red"; 
     } else {
-      roleHolder.style.backgroundColor = "transparent"; // Transparent for others
+      roleHolder.style.backgroundColor = "blue"; 
     }
 
-  
+   
     card.innerHTML = `
       <img src="${user.image}" alt="image" />
       <div class="data">
@@ -92,9 +92,10 @@ const setUsers = (usersToDisplay) => {
             user.gender.toLowerCase() === "male" ? "M" : "F"
           }</p>
         </div>
+          
       </div>`;
 
-    card.appendChild(roleHolder); 
+      card.appendChild(roleHolder)
     userHolder.appendChild(card); 
   });
 };

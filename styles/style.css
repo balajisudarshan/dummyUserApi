@@ -116,9 +116,9 @@
     padding: 20px;
   }
   
-  .card:hover {
+   .card:hover {
     transform: translateY(-8px);
-  }
+  } 
   
   .card img {
     width: 100%;
@@ -152,10 +152,11 @@
   }
   .gender-holder {
     margin-top: 15px;
+    margin-left: 83%;
   }
   
   .gender {
-    background-color: #ff7043;
+    background-color: #4399cc;
     color: #fff;
     font-size: 1.2rem;
     padding: 12px;
@@ -169,9 +170,9 @@
   }
   
   .role-holder {
-    position: absolute;
+   position: absolute ;
     margin-left: 200px;
-    padding: 12px;
+    padding: 8px;
     text-align: center;
     border-radius: 50px;
   }
@@ -239,17 +240,25 @@
     }
   
     .role-holder {
+      
       padding: 5px;
-      right: 120px;
+     
+  
+    
     }
   
     .data {
       padding: 10px;
     }
-  
+
     .data .email {
       font-size: 13px; /* Adjust font size to fit smaller screens */
        /* Make sure the text can wrap across multiple lines */
+    }
+    .gender{
+      padding: 8px;
+    width: 25px;
+    height: 25px;
     }
   }
   
