@@ -86,7 +86,7 @@ const setUsers = (usersToDisplay) => {
       <div class="data">
         <h1>${user.firstName + " " + user.lastName}</h1>
         <h3 class="username">${user.username}</h3>
-        <p class="email" style="font-size:15px;">${user.email}</p>
+        <p class="email" >${user.email}</p>
         <div class="gender-holder">
           <p class="gender">${
             user.gender.toLowerCase() === "male" ? "M" : "F"

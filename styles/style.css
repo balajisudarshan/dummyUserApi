@@ -141,13 +141,15 @@
     font-weight: bold;
   }
   
-  .data .username,
-  .data .email {
+  .data .username {
     font-size: 1.1rem;
     color: #555;
     margin-top: 10px;
   }
-  
+  .data .email{
+    font-size: 15px;
+    margin-top: 20px;
+  }
   .gender-holder {
     margin-top: 15px;
   }
@@ -198,13 +200,11 @@
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
-      
     }
   
     .logo {
       font-size: 1.5rem;
       margin-bottom: 10px;
-      
     }
   
     .input {
@@ -234,11 +234,23 @@
   
     .card {
       width: 50%;
-      max-width: 320px;
-      padding: 20px;
+      max-width: 800px; /* Limit max width for better responsiveness */
+      padding: 10px;
     }
-    .role-holder{
-        padding: 5px;
+  
+    .role-holder {
+      padding: 5px;
+    }
+  
+    .data {
+      padding: 10px;
+    }
+  
+    .data .email {
+      font-size: 13px; /* Adjust font size to fit smaller screens */
+       /* Make sure the text can wrap across multiple lines */
     }
   }
+  
+  
   
