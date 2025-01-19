@@ -140,7 +140,10 @@
     color: #333;
     font-weight: bold;
   }
-  
+  .data h1{
+    text-align: center;
+    padding: 10px;
+  }
   .data .username {
     font-size: 1.1rem;
     color: #555;
@@ -149,6 +152,7 @@
   .data .email{
     font-size: 15px;
     margin-top: 20px;
+    
   }
   .gender-holder {
     margin-top: 15px;
@@ -240,7 +244,7 @@
     }
   
     .role-holder {
-      right: 10px;
+      margin-right: 10px;
       padding: 5px;
      
   
@@ -252,7 +256,8 @@
     }
 
     .data .email {
-      font-size: 13px; /* Adjust font size to fit smaller screens */
+      font-size: 11px;
+/* Adjust font size to fit smaller screens */
        /* Make sure the text can wrap across multiple lines */
     }
     .gender{
